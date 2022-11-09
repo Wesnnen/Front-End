@@ -49,18 +49,33 @@ li:hover{
     align-items: center;
 }
 .formulario {
+    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 300px;
+    flex-direction: column;
+    width: 250px;
+    height: 200px;
     background-color: black;
     color: whitesmoke;
     border-radius: 5px;
-    
+    gap: 1rem;
 }
 input {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+form{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: -20%;
+}
+
+.linha{
+    display:flex
 }
