@@ -6,7 +6,7 @@
     height: 1000px;
     flex-direction: column;
     gap: 2rem;
-    background-color: rgb(4, 5, 83);
+    background-color: rgb(247, 247, 248);
 }
 
 .faixa{
@@ -23,6 +23,7 @@
     overflow: hidden;
     z-index: 1;
     border-radius: 20px;
+    box-shadow: 2px 2px 3px rgb(150, 147, 147);
 }
 
 
@@ -41,14 +42,14 @@
     width: 450px;
     height: 330px;
     border-radius: 6px;
-    border: 2px solid rgb(3, 13, 104);
+    border: 1px solid rgb(3, 13, 104);
     display: flex;
     gap: 1rem;
     justify-content: center;
-    border-radius: 5px;
-    box-shadow: 2px 2px 12px azure;
+    box-shadow: 2px 2px 12px rgb(206, 212, 212);
     align-items: center;
     background-color: azure;
+    
 }
 
 .capa img{
@@ -56,6 +57,7 @@
     border-radius: 20px;
     width: 200px;
     height: 300px;
+    margin: 10px;
 }
 
 .texto{
@@ -63,8 +65,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: x-large;
+    font-size: 18px ;
     flex-direction: column;
+    margin-right: 10px;
 }
 
 #titulo{
@@ -79,5 +82,5 @@
     max-width: 80% ;
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 2rem;
 }

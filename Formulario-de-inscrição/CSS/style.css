@@ -8,17 +8,20 @@
 
 .respostas {
     border-radius: 5px;
-    margin-top: 40px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
-    height: 200px;
-    border: 1px solid rgb(243, 192, 192);
-    background: rgb(5, 5, 5);
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(242, 244, 245);
+    background: rgba(1, 12, 59, 0.8);
     box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.2);
-
+    font-size: x-large;
 }
+
+
 h1 {
     display: flex;
     justify-content: center;
@@ -44,22 +47,45 @@ li:hover{
     color: red;
 }
 .cent{
+  
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+.cent::after{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "";
+    opacity: 0.3;
+    top: 12%;
+    left: 31%;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    background-image: url("../imagens/Logo.png");
+    background-size: 600px;
+    background-repeat: no-repeat;
+   
 }
 .formulario {
-    border: 1px solid red;
+   /* border: 1px solid red;*/
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 250px;
     height: 200px;
-    background-color: black;
-    color: whitesmoke;
+    background-color: rgba(21, 21, 22, 0.3);
+    color: rgb(8, 8, 8);
     border-radius: 5px;
     gap: 1rem;
+
+    
 }
 input {
     display: flex;
@@ -78,4 +104,12 @@ form{
 
 .linha{
     display:flex
+}
+
+.meio{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

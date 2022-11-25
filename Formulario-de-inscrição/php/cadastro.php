@@ -7,9 +7,10 @@
     <title>Informatica</title>
 </head>
 <body>
-<nav class="cent">
+<nav class="cent" style="border: 1px solid red;
+                         height: 800px;"   >
 <div class="respostas">
-<p style="color: white;">
+<p style="color: white;" >
 Bem Vindo <?php echo $_POST["nome"]; ?><br>
 O seu e-mail : <?php echo $_POST["e-mail"]; ?><br>
 O seu CIM : <?php echo $_POST["cim"]; ?>
