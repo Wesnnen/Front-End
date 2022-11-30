@@ -15,6 +15,18 @@ Bem Vindo <?php echo $_POST["nome"]; ?><br>
 O seu e-mail : <?php echo $_POST["e-mail"]; ?><br>
 O seu CIM : <?php echo $_POST["cim"]; ?>
 </p>
+
+<?php
+    ini_set( 'display_errors', 1 );
+    error_reporting( E_ALL );
+    $from = "suporte@gob-rj.org.br";
+    $to = "wesnnen@gmail.com";
+    $subject = "Checking PHP mail";
+    $message = "PHP mail works just fine";
+    $headers = "From:" . $from;
+    mail($to,$subject,$message, $headers);
+    echo "The email message was sent.";
+    ?>
 </div>
 </nav>
 </body>
